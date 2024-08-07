@@ -1,0 +1,77 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    
+    background-color: aliceblue;
+    width: 50%;
+    padding: 20px 20px 80px 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  h3{
+    color: green;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .transaction {
+    margin-bottom: 15px;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+            
+    .btn {
+
+       margin: 10px;
+       
+       text-align: center;
+       text-transform: capitalize;
+       
+      background-color: gainsboro;
+       color: blue;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       
+     }
+
+     .btn:hover {
+       background-position: right center; /* change the direction of the change here */
+       color:orangered;
+       text-decoration: none;
+     }
+    
+  
+  #transactionResult {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .btn{
+    margin-top: 20px;
+  }
+  
+  
+  

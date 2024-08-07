@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Banking App</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Banking App</h1>
+    <h3>Current balance: <span id="balance">0</span></h3>
+
+    <div class="transaction">
+      <div class="inner" >
+      <label for="depositAmount">Deposit:</label>
+      <input class="input"  type="number" id="depositAmount">
+    </div>
+    <div>
+      <button  class="btn" onclick="deposit()">Deposit</button>
+    </div>
+    </div>
+
+    <div class="transaction">
+      <div>
+      <label  for="withdrawAmount">Withdraw:</label>
+      <input class="input" type="number" id="withdrawAmount">
+    </div>
+    <div>
+      <button class="btn" onclick="withdraw()">Withdraw</button>
+    </div>
+    </div>
+
+    <button class="btn" onclick="checkBalance()">Check Balance</button>
+
+    <div class="btn" id="transactionResult"></div>
+  </div>
+  <script src="assets/js/script.js">
+    
+  </script>
+</body>
+</html>
